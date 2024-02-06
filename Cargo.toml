@@ -1,0 +1,11 @@
+[package]
+name = "kaggle_in_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+polars = { version="0.37.0", features=["lazy", "polars-ops", "to_dummies", "ndarray", "dtype-array"] }
+polars-core = "0.37.0"
+rustlearn = "0.5.0"
